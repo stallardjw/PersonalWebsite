@@ -1,0 +1,28 @@
+* { box-sizing: border-box; }
+
+      html, body {
+        background-color: #fff;
+        font-family: 'Helvetica', sans-serif;
+        font-size: 24px;
+        height: 100%;
+        margin: 0;
+        width: 100%;
+      }
+
+      #app {
+        text-align: center;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+      }
+
+      h3 span:nth-of-type(even){
+        color:green;
+      }
+
+      h3 span:nth-of-type(odd){
+        color:red;
+      }
