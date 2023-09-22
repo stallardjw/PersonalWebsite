@@ -229,8 +229,8 @@ button:focus {
   background: #D6274D;
 }
 
-.social-icon li .bluesky:hover {
-  background: #0085ff;
+.social-icon li .threads:hover {
+  background: #1a1a1a;
 }
 
 .social-icon li .linkedin:hover {
@@ -348,7 +348,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .cert-section {
-  background: url(../img/bg-1.jpg);
+  background: url(../img/seasonal/seasonalbg-2.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -381,7 +381,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin: auto;
 }
 .parallax {
-  background: url(../img/bg-2.jpg);
+  background: url(../img/seasonal/seasonalbg-3.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -737,7 +737,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .intro-area-bg {
-  background: url(../img/intro-area.jpg) no-repeat;
+  background: url(../img/seasonal/seasonalbg-1.jpg) no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
