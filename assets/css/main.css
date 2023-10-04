@@ -222,7 +222,7 @@ button:focus {
 }
 
 .social-icon li .facebook:hover {
-  background: #3b5999;
+  background: #2669f6;
 }
 
 .social-icon li .instagram:hover {
@@ -371,11 +371,29 @@ a.back-to-top:hover, a.back-to-top:focus {
   
 }
 
+.slide-track {
+  width: 100%;
+  display: flex;
+  gap: 3em;
+  overflow: hidden;
+  animation: scroll linear infinite;
+  width: calc(250px * 12);
+}
+
+.slider {
+  padding: 8em 2em;
+}
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 12))}
+}
+
 .cert-container img{
   aspect-ratio: 3/3;
   object-fit: contain;
-  width: 100%;
-  height: 100%;
+  max-width: 200px;
+  animation: scroll 70s linear infinite;
 }
 .flex-item {
   margin: auto;
