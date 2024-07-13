@@ -45,17 +45,20 @@
   #intro-area .contents p {
     font-size: 20px;
   }
-  .cert-container {
-      height: auto;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-left: 120px;
-      padding-right: 120px;
-    }
+
   .cert-section {
       max-height:none !important;
-      padding: 0px 5px;
     }
+
+    .cert-container .slider {
+      animation: slidein 50s linear infinite;
+      width: 80cm;
+    }
+
+    .cert-container img{
+      max-width: 200px;
+    }
+
 
   .timeline li .line-title {
     line-height: 26px;
