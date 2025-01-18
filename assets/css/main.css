@@ -428,11 +428,16 @@ a.back-to-top:hover, a.back-to-top:focus {
   padding: 0 20px 20px 30px;
   list-style: none;
   border-left: 2px solid #f1f1f1;
+  
 }
 
 .timeline li .content-text {
   background: #f2f2f2;
   padding: 20px;
+  border-radius: 5px; 
+  overflow: hidden;
+  word-wrap: break-word;
+  white-space: normal; 
 }
 
 .timeline li .line-title {

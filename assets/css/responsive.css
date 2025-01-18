@@ -83,3 +83,12 @@
     background-attachment: scroll;
   }
 }
+@media (max-width: 767px) {
+  .timeline li {
+      padding: 0 15px 15px 20px;
+      font-size: 14px; /* Adjust font size for better readability */
+  }
+  .timeline li .content-text {
+      padding: 15px;
+  }
+}
