@@ -229,8 +229,8 @@ button:focus {
   background: #D6274D;
 }
 
-.social-icon li .threads:hover {
-  background: #1a1a1a;
+.social-icon li .bluesky:hover {
+  background: #1185fe;
 }
 
 .social-icon li .linkedin:hover {
