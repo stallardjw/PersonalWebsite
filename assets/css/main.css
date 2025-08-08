@@ -913,3 +913,29 @@ a.back-to-top:hover, a.back-to-top:focus {
 #copyright p a:hover {
   color: #00b4d9;
 }
+
+.view-more-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.view-more-divider {
+  width: 30%;
+  margin: 0 10px;
+  border-top: 1px solid #ccc;
+}
+
+.view-more-button a {
+  font-weight: bold;
+  color: #555;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.view-more-button a:hover {
+  text-decoration: underline;
+}
