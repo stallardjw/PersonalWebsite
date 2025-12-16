@@ -935,3 +935,28 @@ a.back-to-top:hover, a.back-to-top:focus {
 .view-more-button a:hover {
   text-decoration: underline;
 }
+
+/* Testimonial Scrolling Animation */
+.testimonial-track {
+  display: flex;
+  width: max-content; 
+  animation: scrollTestimonials 60s linear infinite; 
+}
+
+.testimonial-track:hover {
+  animation-play-state: paused;
+}
+
+.testimonial-item {
+  width: 500px; 
+  flex-shrink: 0; 
+}
+
+@keyframes scrollTestimonials {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
